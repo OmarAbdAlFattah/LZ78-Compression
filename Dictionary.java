@@ -5,9 +5,11 @@ public class Dictionary {
 	
 	int inDic(String value, ArrayList<String> dic)
 	{	
-		if(dic.contains(value))
+		if(dic.contains(value)){
+			System.out.println("found at :" +dic.indexOf(value));
 			return dic.indexOf(value);
+		}
 		else
-			return 0;	//not found
+			return -1;	//not found
 	}
 }
