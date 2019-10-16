@@ -3,6 +3,8 @@ public class Main {
 	public static void main(String[] args) 
 	{
 		String input = "ABBCBCABABCAABCAAB";
+		System.out.println("the input is: " + input);
+		System.out.println();
 		Compression compression = new Compression();
 		Dictionary dic = new Dictionary();
 		
